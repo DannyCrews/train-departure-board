@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
 
+import Date from './Date';
+import Clock from './Clock';
+import Departures from './Departures';
+
 class StatusBoard extends Component {
 
   render() {
     return (
       <div className="App">
-        StatusBoard Content
+        <Date />
+        <Clock />
+        <Departures />
       </div>
     );
   }
-  
+
 }
 
 
