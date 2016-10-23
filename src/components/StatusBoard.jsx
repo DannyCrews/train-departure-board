@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import './App.css';
 
-class App extends Component {
+class StatusBoard extends Component {
+
   render() {
     return (
       <div className="App">
-        Application
+        StatusBoard Content
       </div>
     );
   }
+  
 }
 
-export default App;
+
+export default StatusBoard;
