@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Date from './Date';
+import DateDisplay from './DateDisplay';
 import Clock from './Clock';
 import Departures from './Departures';
 
@@ -9,7 +9,7 @@ class StatusBoard extends Component {
   render() {
     return (
       <div className="App">
-        <Date />
+        <DateDisplay />
         <Clock />
         <Departures />
       </div>
