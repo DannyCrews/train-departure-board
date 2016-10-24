@@ -1,0 +1,322 @@
+[
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 5079,
+    "Destination": "",
+    "ScheduledTime": 1477249200,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 2407,
+    "Destination": "Fitchburg",
+    "ScheduledTime": 1477251000,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 2309,
+    "Destination": "Lowell",
+    "ScheduledTime": 1477252800,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 2157,
+    "Destination": "Newburyport",
+    "ScheduledTime": 1477254600,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 5081,
+    "Destination": "",
+    "ScheduledTime": 1477256400,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 2109,
+    "Destination": "Rockport",
+    "ScheduledTime": 1477258200,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 2207,
+    "Destination": "Haverhill",
+    "ScheduledTime": 1477259400,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 2409,
+    "Destination": "Fitchburg",
+    "ScheduledTime": 1477260000,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 2311,
+    "Destination": "Lowell",
+    "ScheduledTime": 1477260000,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 5083,
+    "Destination": "",
+    "ScheduledTime": 1477260900,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 2159,
+    "Destination": "Newburyport",
+    "ScheduledTime": 1477264500,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 5085,
+    "Destination": "",
+    "ScheduledTime": 1477265400,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 2411,
+    "Destination": "Fitchburg",
+    "ScheduledTime": 1477267200,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 5177,
+    "Destination": "",
+    "ScheduledTime": 1477267200,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 2313,
+    "Destination": "Lowell",
+    "ScheduledTime": 1477267200,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 2111,
+    "Destination": "Rockport",
+    "ScheduledTime": 1477269000,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 2209,
+    "Destination": "Haverhill",
+    "ScheduledTime": 1477269600,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "North Station",
+    "Trip": 2161,
+    "Destination": "Newburyport",
+    "ScheduledTime": 1477275600,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "South Station",
+    "Trip": 2711,
+    "Destination": "Forge Park / 495",
+    "ScheduledTime": 1477250400,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "South Station",
+    "Trip": 2009,
+    "Destination": "Middleboro/Lakeville",
+    "ScheduledTime": 1477251300,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "South Station",
+    "Trip": 2769,
+    "Destination": "Readville",
+    "ScheduledTime": 1477252200,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "South Station",
+    "Trip": 2037,
+    "Destination": "Kingston",
+    "ScheduledTime": 1477253400,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "South Station",
+    "Trip": 2511,
+    "Destination": "Worcester / Union Station",
+    "ScheduledTime": 1477254000,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "South Station",
+    "Trip": 2811,
+    "Destination": "Providence",
+    "ScheduledTime": 1477254900,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "South Station",
+    "Trip": 2771,
+    "Destination": "Readville",
+    "ScheduledTime": 1477255800,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "South Station",
+    "Trip": 2081,
+    "Destination": "Greenbush",
+    "ScheduledTime": 1477257000,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "South Station",
+    "Trip": 2055,
+    "Destination": "Plymouth",
+    "ScheduledTime": 1477257600,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "South Station",
+    "Trip": 2713,
+    "Destination": "Forge Park / 495",
+    "ScheduledTime": 1477257600,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "South Station",
+    "Trip": 2011,
+    "Destination": "Middleboro/Lakeville",
+    "ScheduledTime": 1477258800,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "South Station",
+    "Trip": 2773,
+    "Destination": "Readville",
+    "ScheduledTime": 1477259400,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "South Station",
+    "Trip": 2513,
+    "Destination": "Worcester / Union Station",
+    "ScheduledTime": 1477261200,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  },
+  {
+    "TimeStamp": 1477249021,
+    "Origin": "South Station",
+    "Trip": 2813,
+    "Destination": "Providence",
+    "ScheduledTime": 1477262700,
+    "Lateness": 0,
+    "Track": "",
+    "Status": "On Time"
+  }
+]
