@@ -5,7 +5,7 @@ class Departures extends Component {
   render() {
     return (
       <div className="Departures">
-        Departures Content
+        <h1>Station Departure Information</h1>
       </div>
     );
   }

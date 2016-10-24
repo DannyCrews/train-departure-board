@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Moment from 'moment';
+import '../StatusBoard.css';
 
 import Clock from './Clock';
 import Departures from './Departures';
@@ -17,7 +18,9 @@ class StatusBoard extends Component {
         <div className="clock">
           <Clock format='hh:mm:ss' label='Current Time'/>
         </div>
-        <Departures />
+        <div className="departures">
+          <Departures />
+        </div>
       </div>
     );
   }
