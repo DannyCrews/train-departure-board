@@ -1,18 +1,41 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Moment from 'moment';
 
 import '../Clock.css';
 
+class Clock extends Component {
+  constructor(props) {
+    super(props);
 
+    this.state = {
+      currentDate: this.getMoment()
+    };
+  }
 
-class Clock extends React.Component {
+  componentDidMount() {
+    const tick = setInterval(() => {
+      this.setState({
+        currentDate: this.getMoment()
+      });
+    }, 1000);
+
+    this.setState({tick});
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.state.tick);
+  }
+
+  getMoment() {
+    return new Date();
+  }
 
   render() {
-    var time = Moment(this.props.date).format(this.props.format);
+    var time = Moment(this.state.currentDate).format(this.props.format);
 
     return (
-    <div className="clock">
-      <div>Current Time</div>
+    <div>
+      <div>{this.props.label}</div>
       {time}
     </div>
     );
@@ -20,13 +43,13 @@ class Clock extends React.Component {
 }
 
 Clock.propTypes = {
-  date: React.PropTypes.object.isRequired,
+  label: React.PropTypes.string.isRequired,
   format: React.PropTypes.string.isRequired
 };
 
 Clock.defaultProps = {
-    date: new Date(),
-    format: 'HH:MM A'
+    label: 'Current Time',
+    format: 'hh:mm:ss A'
 };
 
 export default Clock;
