@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Griddle from 'griddle-react';
 
+import TimeTransform from './TimeTransform';
+
 import departures from '../../data/Departures.json';
 
 class Departures extends Component {
@@ -20,7 +22,8 @@ class Departures extends Component {
       {
         "columnName": "ScheduledTime",
         "displayName": "Time",
-        "cssClassName": "time-column"
+        "cssClassName": "time-column",
+        "customComponent": TimeTransform
       },
       {
         "columnName": "Destination",
