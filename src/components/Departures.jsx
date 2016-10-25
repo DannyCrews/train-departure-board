@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Griddle from 'griddle-react';
-
+import '../styles/Departures.css';
 import TimeTransform from './TimeTransform';
-
 import departures from '../../data/Departures.json';
 
 class Departures extends Component {

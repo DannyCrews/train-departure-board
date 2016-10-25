@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Moment from 'moment';
-import '../StatusBoard.css';
-
+import '../styles/StatusBoard.css';
 import Clock from './Clock';
 import Departures from './Departures';
 
