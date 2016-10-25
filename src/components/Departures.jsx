@@ -8,7 +8,7 @@ import departures from '../../data/Departures.json';
 class Departures extends Component {
 
   render() {
-    var departureMetadata = [
+    let departureMetadata = [
       {
         "columnName": "Origin",
         "displayName": "Station",

@@ -31,7 +31,7 @@ class Clock extends Component {
   }
 
   render() {
-    var time = Moment(this.state.currentDate).format(this.props.format);
+    let time = Moment(this.state.currentDate).format(this.props.format);
 
     return (
     <div>
