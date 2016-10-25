@@ -6,10 +6,45 @@ import departures from '../../data/Departures.json';
 class Departures extends Component {
 
   render() {
+    var departureMetadata = [
+      {
+        "columnName": "Origin",
+        "displayName": "Station",
+        "cssClassName": "station-column"
+      },
+      {
+        "columnName": "Trip",
+        "displayName": "Train",
+        "cssClassName": "train-column"
+      },
+      {
+        "columnName": "ScheduledTime",
+        "displayName": "Time",
+        "cssClassName": "time-column"
+      },
+      {
+        "columnName": "Destination",
+        "cssClassName": "destination-column"
+      },
+      {
+        "columnName": "Track",
+        "cssClassName": "track-column"
+      },
+      {
+        "columnName": "Status",
+        "cssClassName": "status-column"
+      }
+      ];
+
     return (
       <div className="Departures">
         <h1>Station Departure Information</h1>
-        <Griddle results={departures} />
+        <Griddle
+          results={departures}
+          enableInfiniteScroll={true}
+          bodyHeight={1000}
+          columns={["Origin", "ScheduledTime", "Trip", "Destination", "Track", "Status"]}
+          columnMetadata={departureMetadata} />
       </div>
     );
   }
