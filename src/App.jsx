@@ -15,7 +15,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        Application
         <main className="App-content">
           {this.renderContent()}
         </main>

@@ -1,11 +1,9 @@
 .clock {
-  border: solid black;
   float: right;
   text-align: center;
 }
 
 .date {
-  border: solid black;
   float: left;
   text-align: center;
 }

@@ -16,7 +16,7 @@ class StatusBoard extends Component {
           <Clock format='D-M-YYYY' label={day}/>
         </div>
         <div className="clock">
-          <Clock format='hh:mm:ss' label='Current Time'/>
+          <Clock format='h:mm:ss a' label='Current Time'/>
         </div>
         <div className="departures">
           <Departures />

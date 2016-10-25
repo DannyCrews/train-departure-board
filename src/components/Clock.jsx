@@ -49,7 +49,7 @@ Clock.propTypes = {
 
 Clock.defaultProps = {
     label: 'Current Time',
-    format: 'hh:mm:ss A'
+    format: 'h:mm a'
 };
 
 export default Clock;
