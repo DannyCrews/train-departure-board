@@ -23,8 +23,6 @@ class StatusBoard extends Component {
       </div>
     );
   }
-
 }
-
 
 export default StatusBoard;

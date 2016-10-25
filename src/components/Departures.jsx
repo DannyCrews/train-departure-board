@@ -50,7 +50,6 @@ class Departures extends Component {
       </div>
     );
   }
-
 }
 
 

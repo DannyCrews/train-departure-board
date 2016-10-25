@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Moment from 'moment';
-
 import '../styles/Clock.css';
 
 class Clock extends Component {
