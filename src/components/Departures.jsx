@@ -3,6 +3,7 @@ import Griddle from 'griddle-react';
 import '../styles/Departures.css';
 import TimeTransform from './TimeTransform';
 import departures from '../../data/Departures.json';
+import jsonFile from '../helpers/ParseCSV'
 
 class Departures extends Component {
 
