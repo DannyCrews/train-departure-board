@@ -4,6 +4,8 @@ import '../styles/Departures.css';
 import TimeTransform from './TimeTransform';
 import departures from '../../data/Departures.json';
 
+import getDepartureData from '../utils/getDepartureData';
+
 class Departures extends Component {
   constructor(props) {
     super(props);
@@ -12,7 +14,7 @@ class Departures extends Component {
   }
 
   componentDidMount() {
-    // get data from mbta data feed
+    getDepartureData;
   }
 
 
