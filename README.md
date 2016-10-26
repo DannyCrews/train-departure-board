@@ -2,6 +2,8 @@ This React application displays train departure information derived from a .csv 
 
 The next steps are to import the .csv data from the source in real time and to explore alternate data formatting options that support direct parsing of the csv file into the data table.
 
+Update 10/25 - I'm currently getting an Access-Control-Allow-Origin Error preventing loading of the data via XMLHttpRequest.
+
 The application was scaffolded with create-react-app. I'm considering 'ejecting' the create-react-app build to allow access to the webpack.config file so that I can add the loaders necessary to handle the csv file processing.
 
 
