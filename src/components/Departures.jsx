@@ -5,6 +5,16 @@ import TimeTransform from './TimeTransform';
 import departures from '../../data/Departures.json';
 
 class Departures extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {};
+  }
+
+  componentDidMount() {
+    // get data from mbta data feed
+  }
+
 
   render() {
     let departureMetadata = [
